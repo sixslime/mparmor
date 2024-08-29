@@ -21,6 +21,8 @@ scoreboard objectives add -mparmor dummy
 scoreboard objectives add --mparmor dummy
 #scoreboard objectives add mparmor-scoreboard dummy
 
+function mparmor:_/cache/generate
+
 # tick
 schedule clear mparmor:_/tick
 function mparmor:_/tick
